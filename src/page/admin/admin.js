@@ -22,14 +22,14 @@ const Admin = () => {
     // const [user, ] = useState(memoryUtils.user)
     //如果类型中没有user，说明当前没有登录
     const user=memoryUtils.user
-    console.log(user)
+    // console.log(user11111)
     return (
           <Layout style={{ minHeight: '100vh' }}>
             <Sider>
                 <LeftNav/>
             </Sider>
             <Layout>
-                <Header>Header</Header>
+                <Header>Header测试</Header>
                 <Content style={{margin:'20px',backgroundColor:'#fff'}}>
                 <Switch>
                     <Redirect from='/admin' exact to='/admin/home'/>
